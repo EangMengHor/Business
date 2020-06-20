@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.topnav{
+    background-color:#FDD007 ;
+    overflow: hidden;
+    border-bottom: 2px solid #000000 ;
+}
+
+.topnav a{
+    float: right;
+    display: block;
+    padding: 18px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+   
+}
+
+.topnav a:hover{
+    background-color: #000000;
+    color: #FDD007;
+}
+
+.logo{
+    padding: 15px;
+}
+
+.pic img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.header{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
