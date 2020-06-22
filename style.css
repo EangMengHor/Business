@@ -163,7 +163,7 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
     text-align: center;
 }
 
-@media (max-width: 768px){
+@media (max-width: 812px){
     .topnav .logo, .topnav a{
         float:none;
         width: 100%;
