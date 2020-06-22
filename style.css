@@ -162,3 +162,27 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
     width: 100%;
     text-align: center;
 }
+
+@media (max-width: 768px){
+    .topnav .logo, .topnav a{
+        float:none;
+        width: 100%;
+        text-align: center;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 60px;
+    }
+  
+@media (max-width: 450px){
+    footer{
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        margin-top: 90px;
+    }
+}
