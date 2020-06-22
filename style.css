@@ -1,4 +1,8 @@
+html, body{
+    background-color:#3D3D3D;
+}
 *{
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -10,26 +14,37 @@
 
 .topnav a{
     float: right;
-    display: block;
+    display: inline-block;
     padding: 18px 16px;
     text-align: center;
     text-decoration: none;
-    color: white;
-   
+    color: black;
+    font-size: 20px;
 }
 
 .topnav a:hover{
     background-color: #000000;
     color: #FDD007;
+    height: 72px;
 }
 
 .logo{
-    padding: 15px;
+    float: left;
+    display: inline-block;
+    padding: 18px 15px ;
+    font-size: 30px;
+    padding-left: 40px;
+
+}
+
+.topnav .current{
+    color:white
 }
 
 .pic img{
     object-fit: cover;
     width: 100%;
+    
 }
 
 .header{
@@ -44,4 +59,98 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+}
+
+
+
+.container {
+    font-size: 28px;
+    text-align: center;
+    color:#FDD007;
+    
+}
+
+.row{
+    margin: 20px;
+    display: flex;
+}
+
+.paragraph{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #FDD007;
+
+}
+
+img{
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 100%;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    background-color:#FDD007;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid black;
+}
+article h1{
+    font-size: 20px;
+    padding: 20px;
+}
+article#main-col{
+    float: left;
+    width: 65%;
+    color: #FDD007;
+
+}
+
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    
+}
+
+.containers{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+}
+
+.dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.button_1{
+    height:38px;
+    background:#e8491d;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+    color:#ffffff;
 }
